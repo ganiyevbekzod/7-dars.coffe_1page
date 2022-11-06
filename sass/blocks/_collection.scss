@@ -1,0 +1,81 @@
+.collection__inner{
+    padding-top: 146px;
+    background-image: url("../images/collection_img.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 188px;
+}
+.collection__list{
+    display: grid;
+    grid-template-columns: repeat(4,255px);
+    gap: 30px;
+    margin: 0px;
+    list-style-type: none;
+}
+.collection__item{
+    display: block;
+}
+@media only screen and (max-width:768px) {
+    .collection__inner{
+        margin: 0 auto;
+        max-width: 689px;
+        background-image: url("../images/collection_img.png");
+        background-size: 100%;
+    }
+    .collection__list{
+        margin: 0 auto;
+        padding: 0px;
+        grid-template-columns: repeat(1,573px);
+        grid-template-rows: repeat(5,1fr);
+    }
+    .collection__item{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:576px) {
+    .collection__inner{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .collection__list{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0px;
+        grid-template-columns: repeat(1,282px);
+        grid-template-rows: repeat(4,1fr);
+    }
+    .collection__item{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .items__content{
+        margin: 0 auto;
+        padding-bottom: 48px;
+    }
+    
+}
+.items__content{
+    width: 100%;
+    max-width: 255px;
+}
+.items__title{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+.items__text{
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}

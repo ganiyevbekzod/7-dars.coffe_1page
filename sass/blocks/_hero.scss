@@ -1,0 +1,75 @@
+// hero section started
+.hero__inner{
+    background-image: url("../images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1280px;
+    padding: 117px 0px 117px 85px;
+    border-radius: 10px;
+}
+.hero__content{
+    width: 100%;
+    max-width: 490px;
+}
+.hero__title{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    margin: 0px;
+    padding-bottom: 32px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+.hero__text{
+    font-family: 'Barlow';
+    margin: 0px;
+    padding-bottom: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.hero__link{
+    font-family: 'Fraunces';
+    padding: 15px 32px;
+    background: #0E8784;
+    border-radius: 6px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    text-decoration: none;
+    &:hover{
+        background: #66D2CF;
+        color: #FEFCF7;   
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .hero__inner{
+        padding: 104px 0px 104px 58px;
+        background-image: url("../images/hero-bg2.jpg");
+        background-size: 100%;
+    }
+    .hero__content{
+        width: 330px;
+    }
+    .hero__title{
+        font-size: 48px;
+        line-height: 48px;
+        padding-bottom: 24px;
+    }
+    .hero__text{
+        font-size: 15px;
+        line-height: 25px;
+        padding-bottom: 40px;
+    }
+    .hero__link{
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,117 @@
+.choose__inner{
+    display: block;
+    width: 100%;
+    background-image: url("../images/choose-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 112px 85px 0px;
+}
+.choose__content {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 530px;
+}
+.choose__title {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+    margin: 0;
+    padding-bottom: 32px;
+}
+.choose__text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin: 0;
+    padding-bottom: 86px;
+}
+.choose__list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    bottom: 0px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.choose__item {
+    padding: 72px 48px 48px 48px;
+    background: #0E8784;
+    text-align: center;
+    width: 350px;
+    height: 382px;
+    border-radius: 8px;
+}
+.item__content {
+    text-align: center;
+}
+
+.item__title {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0px;
+    padding-top: 57px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.item__text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px;
+    padding-top: 24px;
+    text-align: center;
+    color: #FEFCF7;
+}
+@media only screen and (max-width:768px) {
+    .choose__inner{
+        background-size: 650px 570px;
+    padding: 56px 58px 0px ;
+    }
+    .choose__list{
+    flex-wrap: wrap;
+    gap: 24px;
+    }
+    .choose__item{
+    display: flex;
+    gap: 10px;
+    padding: 41px 48px 41px 55px;
+    }
+    .choose_item-img{
+        width: 55px;
+        height: 56px;
+    }
+    .choose__text{
+        padding-bottom: 70px;
+    }
+}
+@media only screen and (max-width:768px) {
+    .item__title{
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0px;
+}
+.item__text{
+    padding-top: 16px;
+    font-size: 15px;
+    line-height: 25px;
+    
+    }
+    
+}
